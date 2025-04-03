@@ -3,6 +3,7 @@
   <posts-block/>
 </template>
 
+
 <script>
   import MainSlider from "@/components/MainSlider.vue"
   import PostsBlock from "@/components/PostsBlock.vue"
@@ -11,7 +12,3 @@
     components: { MainSlider, PostsBlock }
   }
 </script>
-
-<style scoped>
-
-</style>

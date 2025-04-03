@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-
     <div class="post_descr">
       <div class="post_number">
         Пост номер: {{ postID }}
@@ -18,14 +17,15 @@
     <div class="post_body">
       {{ postsArray[postID]?.body }}
     </div>
-
+    {{  $route.params.id }}
   </div>
-
+ 
   <my-button
     @click="back()">
       назад
   </my-button>
 </template>
+
 
 <script>
   export default {
@@ -52,6 +52,7 @@
     }
   }
 </script>
+
 
 <style scoped>
   .container {
@@ -92,5 +93,4 @@
   .post_user_id {
     font-size: 14px;
   }
-
 </style>

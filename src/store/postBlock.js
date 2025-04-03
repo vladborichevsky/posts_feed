@@ -1,3 +1,4 @@
+
 import { getDataByAxios } from "/src/api/axios.js"
 
 const urlForPosts = "https://jsonplaceholder.typicode.com/posts"

@@ -65,12 +65,9 @@
     },
     
     mounted() {
-      this.$store.dispatch('post/getNewPosts')
-
       if (window.sessionStorage.getItem('lastPostNumber')) {
         this.lastPostNumber = +window.sessionStorage.getItem('lastPostNumber')
       }
-
     }
   }
 </script>

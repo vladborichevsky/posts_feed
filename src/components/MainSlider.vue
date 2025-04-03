@@ -126,6 +126,7 @@
   }
 </script>
 
+
 <style scoped>
   .slider {
     margin: 0 auto;

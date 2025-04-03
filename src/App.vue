@@ -1,4 +1,3 @@
-
 <template>
   <div class="container">
     <RouterView/>
@@ -6,10 +5,15 @@
 </template>
 
 
-<script setup>
+<script>
   import { RouterView } from 'vue-router'
-</script>
 
+  export default {
+    mounted() {
+      this.$store.dispatch('post/getNewPosts')
+    }
+  }
+</script>
 
 
 <style scoped>
