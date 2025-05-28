@@ -1,5 +1,6 @@
-
-import { getDataByAxios } from "/src/api/axios.js"
+import {
+	getDataByAxios
+} from "/src/api/axios.js"
 
 const urlForPosts = "https://jsonplaceholder.typicode.com/posts"
 
@@ -15,7 +16,9 @@ export const postBlock = {
 	},
 
 	actions: {
-		async getNewPosts({ commit }) {
+		async getNewPosts({
+			commit
+		}) {
 			commit('setPostsArr', await getDataByAxios(urlForPosts))
 		}
 	},

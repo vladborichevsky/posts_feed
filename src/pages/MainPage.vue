@@ -1,14 +1,13 @@
 <template>
-  <main-slider/>
-  <posts-block/>
+  <main-slider />
+  <posts-block />
 </template>
 
-
 <script>
-  import MainSlider from "@/components/MainSlider.vue"
-  import PostsBlock from "@/components/PostsBlock.vue"
+import MainSlider from '@/components/MainSlider.vue'
+import PostsBlock from '@/components/PostsBlock.vue'
 
-  export default {
-    components: { MainSlider, PostsBlock }
-  }
+export default {
+  components: { MainSlider, PostsBlock },
+}
 </script>

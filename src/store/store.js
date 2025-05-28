@@ -1,10 +1,13 @@
+import {
+  createStore
+} from "vuex"
 
-import { createStore } from "vuex"
+import {
+  postBlock
+} from "@/store/postBlock.js"
 
-import { postBlock } from "@/store/postBlock.js"
-
-export default createStore( {
-  modules: { 
+export default createStore({
+  modules: {
     post: postBlock
   }
 })

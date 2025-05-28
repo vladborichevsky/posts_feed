@@ -1,6 +1,8 @@
 import './assets/styles/main.css'
 
-import { createApp } from 'vue'
+import {
+  createApp
+} from 'vue'
 import App from './App.vue'
 import UIcomponents from '@/components/UI/UIcomponents.js'
 import store from '@/store/store.js'
